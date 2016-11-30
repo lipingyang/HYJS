@@ -1,0 +1,199 @@
+
+.right-list >ul{
+	overflow: auto;
+}
+.right-list >ul >li{
+	width: 205px;
+	height: 195px;
+	margin-left: 30px;
+	float: left;
+	cursor: pointer;
+}
+.teacher-pic{
+	width: 200px;
+	height: 150px;
+	border: 1px solid #eae6e6;
+	text-align: center;
+}
+.teacher-pic img{
+	display: block;
+	margin: 5px 0 0 5px;
+}
+.teacher-name{
+	width: 200px;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*图片遮罩层*/
+/*更多照片*/
+.pic-more-bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;left: 0;top: 140px;z-index: 1000000;
+	background-color: #000;
+	opacity: .88;
+	filter:Alpha(opacity=88);
+	display:none;
+}
+.pic-more{
+	width: 1400px;
+	height: 100%;
+	position: fixed;top: 150px;left: 50%;z-index: 2000000;
+	margin-left: -700px;
+	display: none;
+}
+.pic-close{
+	width: 65px;
+	height: 65px;
+	background:url(../img/close.png) no-repeat center;
+	cursor: pointer;
+	margin-right: 190px;
+}
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation{
+	position: absolute;
+    width: 12px;
+    height: 24px;
+    background-image: url(../img/prevActive.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.connected-carousels .next-navigation {
+    position: absolute;
+    width: 12px;
+    height: 24px;
+    background-image: url(../img/nextActive.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.connected-carousels .prev-navigation {
+    left: 40px;
+    top: 40px;
+}
+
+.connected-carousels .next-navigation {
+    right: 40px;
+    top: 40px;
+}
+.connected-carousels .prev-navigation.inactive{
+	background-image: url(../img/prevInactive.png);
+}
+.connected-carousels .next-navigation.inactive {
+   background-image: url(../img/nextInactive.png);
+}
+
+/** Stage container **/
+
+.connected-carousels .stage {
+    width: 720px;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+    width: 1000px;
+    margin: 20px auto 0;
+    position: relative;
+    background-color: #ededed;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.stage li{
+	width: 720px;
+    height: 490px;
+    background-color: #fff;
+}
+.stage li p{
+	font-family: "microsoft yahei";
+	margin: 10px 0 0 10px;
+}
+.stage li img{
+	display: block;
+	margin: 10px 0 0 10px;
+}
+.connected-carousels .carousel li {
+    float: left;
+
+    margin: 15px 15px 0 0;
+}
+
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation {
+    height: 100px;
+    width: 860px;
+    margin: 0 auto;
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+}
+
+.connected-carousels .carousel-navigation li img {
+    display: block;
+}
+.connected-carousels .carousel-navigation li.active{
+    border:2px solid #68b92e;
+}
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage{
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    height: 55px;
+    background-image: url(../img/bigPrevInactive.png);
+
+}
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    height: 55px;
+    background-image: url(../img/bigNextInactive.png);
+}
+
+.connected-carousels .prev-stage {
+    left: -100px;
+}
+
+.connected-carousels .next-stage {
+    right: -100px;
+}
+
+.connected-carousels .prev-stage.inactive{
+    background-image:url(../img/bigPrevActive.png);
+}
+.connected-carousels .next-stage.inactive{
+    background-image: url(../img/bigNextActive.png);
+
+}
+/*轮播图结束*/

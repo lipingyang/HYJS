@@ -1,0 +1,55 @@
+.right-list{
+	width: calc(100% - 40px);
+	margin: 0 auto;
+	min-height: 800px;
+}
+.list-title{
+	width: 100%;
+	height: 30px;
+	background-color: #f2f2f2;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+}
+.artical-detail{
+	color: #818181;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: url(../img/line_img.png) repeat-x bottom;
+}
+.artical-detail span{
+	display: inline-block;
+	margin-left: 50px;
+}
+.main-artical{
+	margin: 20px auto 20px;
+}
+.main-artical span{
+	display: block;
+	text-indent: 28px;
+	line-height: 30px;
+}
+.school-motto{
+	width: calc(100% - 25px);
+	padding-left: 25px;
+	margin: 20px auto 20px;
+}
+.school-motto p{
+	line-height: 35px;
+}
+/*翻页*/
+.up-down{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	background: url(../img/line_img.png) repeat-x top;
+}
+.orange-bold{
+	color: #fb8443;
+	font-weight: bold;
+}
+.up,.down{
+	cursor: pointer;
+}
